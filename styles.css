@@ -1,0 +1,41 @@
+body{
+    background-image: url("https://images.pexels.com/photos/5417675/pexels-photo-5417675.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    max-width: 100%;
+    min-height: 100vh;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    position: absolute;
+    padding-left: 4rem;
+    width: 700px;
+    background-color: rgba(255, 192, 203, 0.919);
+    min-height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    border-radius: 25px;
+}
+
+p{
+    border: solid white 3px;
+    font-size: 1.5rem;
+    padding: 5px;
+    font-weight: bolder;
+}
+input,button{
+    height: 32px;
+    border-radius: 5px;
+    border: none;
+    font-size: 1.4rem;
+}
+h2{
+    text-align: center;
+}
